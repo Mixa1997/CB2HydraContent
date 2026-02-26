@@ -1,0 +1,174 @@
+{
+	"serverfolder": "HydraSCP",
+	"files":
+	[
+		{
+			"url": "https://raw.githubusercontent.com/Mixa1997/CB2HydraContent/main/HydraSCP.cbpak",
+			"export": "HydraSCP.cbpak",
+			"hash": "bdf11e931161e5aa5298792fbab99cf4"
+		}
+	],
+	"materials": "addons/HydraSCP/Data/materials.ini",
+	"playermodels":
+	[
+		{ 	// SCP-682
+			"id": 18,
+			"filename": "addons/HydraSCP/Models/SCP682.b3d",
+			"offsety": -0.3,
+			"maximumheadpitch": 60.0,
+			"usedefaultrolls": false,
+			"collisionradius": 0.6,
+			"scale":  0.017,
+			"stepsound": "addons/HydraSCP/SFX/682/682walk.ogg",
+			"viewoffsety": -0.1,
+			"hitboxwidth": 25.0, "hitboxheight": 30.5, "hitboxdepth": 31.0,
+			"disableroll": true, "disablebloodloss": true, "disableinjuries": true, "disableinteractitems": true, "disablejump": true,
+			"flippitch": false,
+			"collisiontype": 0,
+			"idlesounds":
+			[
+				{
+					"id": 1,
+					"filename": "addons/HydraSCP/SFX/682/682idle.ogg",
+					"selfplay": true
+				}
+			],
+			"animations":
+			[
+				{   //Idle Anim
+					"id": 1,
+					"start": 76,
+					"end": 294,
+					"speed": 0.11,
+					"stepaccum": 0.0
+				},
+				{	//Walk Anim
+					"id": 2,
+					"start": 295,
+					"end": 330,
+					"speed": 0.55,
+					"stepaccum": 40
+				},
+				{	//Run Anim
+					"id": 3,
+					"start": 295,
+					"end": 330,
+					"speed": 0.6,
+					"stepaccum": 30
+				},
+				{	//Attack Anim Idle
+					"id": 15,
+					"start": 1,
+					"end": 75,
+					"speed": 1,
+					"stepaccum": 0
+				},
+				{	//Attack Anim Walk
+					"id": 16,
+					"start": 1,
+					"end": 75,
+					"speed": 1,
+					"stepaccum": 0
+				},
+				{	//Attack Anim Run
+					"id": 17,
+					"start": 1,
+					"end": 75,
+					"speed": 1,
+					"stepaccum": 0
+				},
+				{	//Roar Anim
+					"id": 21,
+					"start": 65,
+					"end": 75,
+					"speed": 0.15,
+					"stepaccum": 0.0
+				}
+			],
+			"deadanimations":
+			[
+				{
+					"id": 0,
+					"start": 331,
+					"end": 377,
+					"speed": 0.4
+				}
+			]
+		},
+		{ 	// SCP-939
+			"id": 6,
+			"disablejump": false,
+			"animations": [
+				{
+					"id": 1,
+					"start": 11,
+					"end": 89,
+					"speed": 0.2,
+					"stepaccum": 0
+				},
+				{
+					"id": 2,
+					"start": 771,
+					"end": 842,
+					"speed": 0.32,
+					"stepaccum": 40
+				},
+				{
+					"id": 3,
+					"start": 855,
+					"end": 876,
+					"speed": 0.32,
+					"stepaccum": 30
+				},
+				{
+					"id": 6,
+					"start": 2138,
+					"end": 2180,
+					"speed": 0.32,
+					"stepaccum": 0
+				},
+				{
+					"id": 15,
+					"start": 911,
+					"end": 939,
+					"speed": 1,
+					"stepaccum": 0
+				},
+				{
+					"id": 17,
+					"start": 940,
+					"end": 969,
+					"speed": 1,
+					"stepaccum": 0
+				}
+			],
+			"deadanimations":
+			[
+				{
+					"id": 0,
+					"start": 1786,
+					"end": 1860,
+					"speed": 0.3
+				},
+				{
+					"id": 1,
+					"start": 1866,
+					"end": 1960,
+					"speed": 0.3
+				}
+			]
+		},
+		{	//SCP-457
+			"id": 17,
+			"stamina": 3
+		}
+	],
+	"playertextures":
+	[
+		{
+			"id": 33,
+			"filename": "addons/HydraSCP/Models/scp-682.png",
+			"terminatefilename": ""
+		}
+	]
+}
