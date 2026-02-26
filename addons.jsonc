@@ -97,6 +97,7 @@
 		},
 		{ 	// SCP-939
 			"id": 6,
+			"filename": "gfx/npcs/scp_939.b3d",
 			"disablejump": false,
 			"animations": [
 				{
@@ -160,6 +161,7 @@
 		},
 		{	//SCP-457
 			"id": 17,
+			"filename": "gfx/npcs/class_d.b3d",
 			"stamina": 3
 		}
 	],
