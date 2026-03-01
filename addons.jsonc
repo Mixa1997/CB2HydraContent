@@ -125,7 +125,14 @@
 					"id": 6,
 					"start": 2138,
 					"end": 2180,
-					"speed": 0.11,
+					"speed": 0.1,
+					"stepaccum": 0
+				},
+				{
+					"id": 7,
+					"start": 2138,
+					"end": 2180,
+					"speed": 0.01,
 					"stepaccum": 0
 				},
 				{
