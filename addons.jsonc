@@ -46,14 +46,14 @@
 					"id": 2,
 					"start": 295,
 					"end": 330,
-					"speed": 0.56,
+					"speed": 0.55,
 					"stepaccum": 40
 				},
 				{	//Run Anim
 					"id": 3,
 					"start": 295,
 					"end": 330,
-					"speed": 0.59,
+					"speed": 0.6,
 					"stepaccum": 30
 				},
 				{	//Attack Anim Idle
@@ -125,14 +125,14 @@
 					"id": 6,
 					"start": 2138,
 					"end": 2180,
-					"speed": 0.2,
+					"speed": 0.15,
 					"stepaccum": 0
 				},
 				{
 					"id": 7,
 					"start": 2138,
 					"end": 2180,
-					"speed": 0.2,
+					"speed": 0.16,
 					"stepaccum": 0
 				},
 				{
