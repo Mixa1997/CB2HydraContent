@@ -46,15 +46,15 @@
 					"id": 2,
 					"start": 295,
 					"end": 330,
-					"speed": 0.55,
-					"stepaccum": 0
+					"speed": 0.56,
+					"stepaccum": 40
 				},
 				{	//Run Anim
 					"id": 3,
 					"start": 295,
 					"end": 330,
-					"speed": 0.6,
-					"stepaccum": 0
+					"speed": 0.59,
+					"stepaccum": 30
 				},
 				{	//Attack Anim Idle
 					"id": 15,
@@ -82,7 +82,7 @@
 					"start": 65,
 					"end": 75,
 					"speed": 0.15,
-					"stepaccum": 0.0
+					"stepaccum": 0
 				}
 			],
 			"deadanimations":
