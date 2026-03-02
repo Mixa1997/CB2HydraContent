@@ -5,7 +5,7 @@
 		{
 			"url": "https://raw.githubusercontent.com/Mixa1997/CB2HydraContent/main/HydraSCP.cbpak",
 			"export": "HydraSCP.cbpak",
-			"hash": "68f136b3c442e671f494ff7fc7a32d40"
+			"hash": "cb0e258532a9dfb976027095beb5a48d"
 		}
 	],
 	"materials": "addons/HydraSCP/Data/materials.ini",
@@ -172,7 +172,7 @@
 			"headbone": "Bip01_Head1",
 			"spinebone": "Bip01_Spine1",
 			"handbone": "FIRESPOT",
-			"forearmbone": "Bip01_L_Forearm",
+			"forearmbone": "",
 			"maximumspinepitch": 30,
 			"maximumspinepitchdist": 60,
 			"maximumheadpitch": 75,
@@ -213,7 +213,7 @@
 				{
 					"id": 1,
 					"start": 210,
-					"end": 233,
+					"end": 235,
 					"speed": 0.12,
 					"stepaccum": 0
 				},
