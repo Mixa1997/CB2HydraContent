@@ -168,7 +168,7 @@
 			"id": 19,
 			"filename": "addons/HydraSCP/Models/SH.b3d",
 			"offsety": -0.3,
-			"offsetyaw": 0,
+			"offsetyaw": 180,
 			"headbone": "Bip01_Head1",
 			"spinebone": "Bip01_Spine1",
 			"handbone": "FIRESPOT",
@@ -213,7 +213,7 @@
 				{
 					"id": 1,
 					"start": 210,
-					"end": 234,
+					"end": 233,
 					"speed": 0.12,
 					"stepaccum": 0
 				},
