@@ -5,7 +5,7 @@
 		{
 			"url": "https://raw.githubusercontent.com/Mixa1997/CB2HydraContent/main/New/HydraSCP.cbpak",
 			"export": "HydraSCP.cbpak",
-			"hash": "17e61b0a9f92a34c983268034b98ad64"
+			"hash": "1842e187ad8be1ed237bbdd75b947a48"
 		}
 	],
 	"materials": "addons/HydraSCP/Data/materials.ini",
@@ -355,6 +355,10 @@
 		{
 			"id": 34,
 			"filename": "addons/HydraSCP/Models/SH.png"
+		},
+		{
+			"id": 35,
+			"filename": "addons/HydraSCP/Models/NU7.png"
 		}
 	]
 }
