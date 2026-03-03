@@ -1,0 +1,360 @@
+{
+	"serverfolder": "HydraSCP",
+	"files":
+	[
+		{
+			"url": "https://raw.githubusercontent.com/Mixa1997/CB2HydraContent/main/HydraSCP.cbpak",
+			"export": "HydraSCP.cbpak",
+			"hash": "17e61b0a9f92a34c983268034b98ad64"
+		}
+	],
+	"materials": "addons/HydraSCP/Data/materials.ini",
+	"playermodels":
+	[
+		{ 	// SCP-682
+			"id": 18,
+			"filename": "addons/HydraSCP/Models/SCP682.b3d",
+			"offsety": -0.3,
+			"maximumheadpitch": 60.0,
+			"usedefaultrolls": false,
+			"collisionradius": 0.6,
+			"scale":  0.017,
+			"stepsound": "addons/HydraSCP/SFX/682/682walk.ogg",
+			"viewoffsety": -0.1,
+			"hitboxwidth": 25.0, "hitboxheight": 30.5, "hitboxdepth": 31.0,
+			"disableroll": true, "disablebloodloss": true, "disableinjuries": true, "disableinteractitems": true, "disablejump": true,
+			"flippitch": false,
+			"collisiontype": 0,
+			"idlesounds":
+			[
+				{
+					"id": 1,
+					"filename": "addons/HydraSCP/SFX/682/682idle.ogg",
+					"selfplay": true
+				}
+			],
+			"animations":
+			[
+				{   //Idle Anim
+					"id": 1,
+					"start": 76,
+					"end": 294,
+					"speed": 0.11,
+					"stepaccum": 0
+				},
+				{	//Walk Anim
+					"id": 2,
+					"start": 295,
+					"end": 330,
+					"speed": 0.55,
+					"stepaccum": 40
+				},
+				{	//Run Anim
+					"id": 3,
+					"start": 295,
+					"end": 330,
+					"speed": 0.6,
+					"stepaccum": 30
+				},
+				{	//Attack Anim Idle
+					"id": 15,
+					"start": 1,
+					"end": 75,
+					"speed": 1,
+					"stepaccum": 0
+				},
+				{	//Attack Anim Walk
+					"id": 16,
+					"start": 1,
+					"end": 75,
+					"speed": 1,
+					"stepaccum": 0
+				},
+				{	//Attack Anim Run
+					"id": 17,
+					"start": 1,
+					"end": 75,
+					"speed": 1,
+					"stepaccum": 0
+				},
+				{	//Roar Anim
+					"id": 21,
+					"start": 65,
+					"end": 75,
+					"speed": 0.15,
+					"stepaccum": 0
+				}
+			],
+			"deadanimations":
+			[
+				{
+					"id": 0,
+					"start": 331,
+					"end": 377,
+					"speed": 0.4
+				}
+			]
+		},
+		{ 	// SCP-939
+			"id": 6,
+			"filename": "gfx/npcs/scp_939.b3d",
+			"disablejump": false,
+			"animations": [
+				{
+					"id": 1,
+					"start": 11,
+					"end": 89,
+					"speed": 0.2,
+					"stepaccum": 0
+				},
+				{
+					"id": 2,
+					"start": 771,
+					"end": 842,
+					"speed": 0.32,
+					"stepaccum": 40
+				},
+				{
+					"id": 3,
+					"start": 855,
+					"end": 876,
+					"speed": 0.32,
+					"stepaccum": 30
+				},
+				{
+					"id": 6,
+					"start": 2138,
+					"end": 2180,
+					"speed": 0.30,
+					"stepaccum": 0
+				},
+				{
+					"id": 15,
+					"start": 911,
+					"end": 939,
+					"speed": 1,
+					"stepaccum": 0
+				},
+				{
+					"id": 17,
+					"start": 940,
+					"end": 969,
+					"speed": 1,
+					"stepaccum": 0
+				}
+			],
+			"deadanimations":
+			[
+				{
+					"id": 0,
+					"start": 1786,
+					"end": 1860,
+					"speed": 0.3
+				},
+				{
+					"id": 1,
+					"start": 1866,
+					"end": 1960,
+					"speed": 0.3
+				}
+			]
+		},
+		{	//SCP-457
+			"id": 17,
+			"filename": "gfx/npcs/class_d.b3d",
+			"stamina": 3
+		},
+		{	//Serpent Hand
+			"id": 19,
+			"filename": "addons/HydraSCP/Models/SH.b3d",
+			"offsety": -0.3,
+			"offsetyaw": 180,
+			"headbone": "Bip01_Head1",
+			"spinebone": "Bip01_Spine1",
+			"handbone": "FIRESPOT",
+			"forearmbone": "",
+			"maximumspinepitch": 30,
+			"maximumspinepitchdist": 60,
+			"maximumheadpitch": 75,
+			"fixedspinerotation": 0,
+			"usedefaultrolls": true,
+			"collisionradius": 0.26,
+			"scale": 0.0132,
+			"stepsound": "",
+			"blobshadowsize": 0.26,
+			"stamina": 0.3,
+			"speed": 0,
+			"viewoffsety": 0,
+			"holdingitemoffsetx": 0,
+			"holdingitemoffsety": 0,
+			"holdingitemoffsetz": 0,
+			"holdingitemoffsetpitch": 0,
+			"holdingitemoffsetyaw": 0,
+			"holdingitemoffsetroll": 0,
+			"hitboxwidth": 11,
+			"hitboxheight": 38,
+			"hitboxdepth": 11,
+			"movesound": "",
+			"disableroll": false,
+			"disablebloodloss": false,
+			"disableinjuries": false,
+			"flippitch": true,
+			"disableinteractitems": false,
+			"rotationmode": 2,
+			"comparedspinerotation": false,
+			"disablejump": false,
+			"material": 0,
+			"collisiontype": 0,
+			"emitterbones": "",
+			"boneemitter": 0,
+			"idlesounds": [
+			],
+			"animations": [
+				{
+					"id": 1,
+					"start": 210,
+					"end": 235,
+					"speed": 0.12,
+					"stepaccum": 0
+				},
+				{
+					"id": 2,
+					"start": 235,
+					"end": 260,
+					"speed": 0.45,
+					"stepaccum": 45
+				},
+				{
+					"id": 3,
+					"start": 301,
+					"end": 320,
+					"speed": 0.7,
+					"stepaccum": 30
+				},
+				{
+					"id": 4,
+					"start": 356,
+					"end": 381,
+					"speed": 0.5,
+					"stepaccum": 0
+				},
+				{
+					"id": 5,
+					"start": 381,
+					"end": 406,
+					"speed": 0.28,
+					"stepaccum": 45
+				},
+				{
+					"id": 6,
+					"start": 191,
+					"end": 210,
+					"speed": 0.8,
+					"stepaccum": 0
+				},
+				{
+					"id": 7,
+					"start": 191,
+					"end": 210,
+					"speed": 0.8,
+					"stepaccum": 35
+				},
+				{
+					"id": 10,
+					"start": 573,
+					"end": 598,
+					"speed": 0.12,
+					"stepaccum": 0
+				},
+				{
+					"id": 11,
+					"start": 598,
+					"end": 623,
+					"speed": 0.45,
+					"stepaccum": 45
+				},
+				{
+					"id": 12,
+					"start": 664,
+					"end": 682,
+					"speed": 0.5,
+					"stepaccum": 30
+				},
+				{
+					"id": 13,
+					"start": 733,
+					"end": 756,
+					"speed": 0.3,
+					"stepaccum": 0
+				},
+				{
+					"id": 14,
+					"start": 757,
+					"end": 782,
+					"speed": 0.4,
+					"stepaccum": 45
+				},
+				{
+					"id": 15,
+					"start": 1351,
+					"end": 1375,
+					"speed": 0.12,
+					"stepaccum": 0
+				},
+				{
+					"id": 16,
+					"start": 1376,
+					"end": 1400,
+					"speed": 0.45,
+					"stepaccum": 45
+				},
+				{
+					"id": 17,
+					"start": 1441,
+					"end": 1460,
+					"speed": 0.5,
+					"stepaccum": 30
+				},
+				{
+					"id": 18,
+					"start": 1511,
+					"end": 1534,
+					"speed": 0.3,
+					"stepaccum": 0
+				},
+				{
+					"id": 19,
+					"start": 1535,
+					"end": 1560,
+					"speed": 0.3,
+					"stepaccum": 45
+				}
+			],
+			"deadanimations": [
+				{
+					"id": 0,
+					"start": 1,
+					"end": 20,
+					"speed": 0.5
+				},
+				{
+					"id": 1,
+					"start": 40,
+					"end": 60,
+					"speed": 0.5
+				}
+			]
+		}
+	],
+	"playertextures":
+	[
+		{
+			"id": 33,
+			"filename": "addons/HydraSCP/Models/scp-682.png"
+		},
+		{
+			"id": 34,
+			"filename": "addons/HydraSCP/Models/SH.png"
+		}
+	]
+}
