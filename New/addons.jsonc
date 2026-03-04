@@ -5,7 +5,7 @@
 		{
 			"url": "https://raw.githubusercontent.com/Mixa1997/CB2HydraContent/main/New/HydraSCP.cbpak",
 			"export": "HydraSCP.cbpak",
-			"hash": "1842e187ad8be1ed237bbdd75b947a48"
+			"hash": "1ea3136405658e8ac374c925cebce558"
 		}
 	],
 	"materials": "addons/HydraSCP/Data/materials.ini",
@@ -359,6 +359,13 @@
 		{
 			"id": 35,
 			"filename": "addons/HydraSCP/Models/NU7.png"
+		}
+	],
+	"playerweapontextures":
+	[
+		{
+			"id": 35,
+			"filename": "ddons/HydraSCP/Models/nu7_hands.png"
 		}
 	]
 }
