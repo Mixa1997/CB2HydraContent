@@ -5,7 +5,7 @@
 		{
 			"url": "https://raw.githubusercontent.com/Mixa1997/CB2HydraContent/main/New/HydraSCP.cbpak",
 			"export": "HydraSCP.cbpak",
-			"hash": "1842e187ad8be1ed237bbdd75b947a48"
+			"hash": "1ea3136405658e8ac374c925cebce558"
 		}
 	],
 	"materials": "addons/HydraSCP/Data/materials.ini",
@@ -64,7 +64,7 @@
 					"stepaccum": 0
 				},
 				{	//Attack Anim Walk
-					"id": 16,
+					"id": 19,
 					"start": 1,
 					"end": 75,
 					"speed": 1,
@@ -159,6 +159,28 @@
 				}
 			]
 		},
+		{
+			"id": 10,
+			"filename": "gfx/npcs/mtf_m.b3d",
+			"idlesounds": [
+				{
+					"id": 1,
+					"filename": "SFX/Character/D9341/BreathGasRelaxed.ogg",
+					"selfplay": true
+				}
+			]
+		},
+		{
+			"id": 11,
+			"filename": "gfx/npcs/chaos_m.b3d",
+			"idlesounds": [
+				{
+					"id": 1,
+					"filename": "SFX/Character/D9341/BreathGasRelaxed.ogg",
+					"selfplay": true
+				}
+			]
+		},
 		{	//SCP-457
 			"id": 17,
 			"filename": "gfx/npcs/class_d.b3d",
@@ -208,6 +230,11 @@
 			"emitterbones": "",
 			"boneemitter": 0,
 			"idlesounds": [
+				{
+					"id": 1,
+					"filename": "SFX/Character/D9341/BreathGasRelaxed.ogg",
+					"selfplay": true
+				}
 			],
 			"animations": [
 				{
@@ -302,7 +329,7 @@
 					"stepaccum": 0
 				},
 				{
-					"id": 16,
+					"id": 19,
 					"start": 1376,
 					"end": 1400,
 					"speed": 0.45,
@@ -359,6 +386,990 @@
 		{
 			"id": 35,
 			"filename": "addons/HydraSCP/Models/NU7.png"
+		}
+	],
+	"playerweapontextures":
+	[
+		{
+			"id": 35,
+			"filename": "addons/HydraSCP/Models/nu7_hands.png"
+		}
+	],
+	"attaches":
+	[
+		// {
+		// 	"id": 1,
+		// 	"filename": "gfx/items/wearable/gasmask_wearmodel.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 		{
+		// 			"id": 0,
+		// 			"filename": "SFX/Character/D9341/BreathGasRelaxed.ogg"
+		// 		}
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 1,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		},
+		// 		{
+		// 			"id": 12,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		},
+		// 		{
+		// 			"id": 17,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 2,
+		// 	"filename": "gfx/items/wearable/gasmask_wearmodel.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 		{
+		// 			"id": 0,
+		// 			"filename": "SFX/Character/D9341/BreathGasRelaxed.ogg"
+		// 		}
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 1,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		},
+		// 		{
+		// 			"id": 12,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		},
+		// 		{
+		// 			"id": 17,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 3,
+		// 	"filename": "gfx/items/wearable/gasmask_wearmodel.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 		{
+		// 			"id": 0,
+		// 			"filename": "SFX/Character/D9341/BreathGasRelaxed.ogg"
+		// 		}
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 1,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		},
+		// 		{
+		// 			"id": 12,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		},
+		// 		{
+		// 			"id": 17,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 4,
+		// 	"filename": "gfx/items/wearable/gasmask_wearmodel.b3d",
+		// 	"texture": "gfx/items/gas_mask_heavy.png",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 		{
+		// 			"id": 0,
+		// 			"filename": "SFX/Character/D9341/BreathGasRelaxed.ogg"
+		// 		}
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 1,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		},
+		// 		{
+		// 			"id": 12,
+		// 			"bone": "Bip01_Head",
+		// 			"offsetx": -3,
+		// 			"offsety": 0,
+		// 			"offsetz": 0.5,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.04705,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 5,
+		// 	"filename": "gfx/items/wearable/ballistic_vest_wearmodel.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 12,
+		// 			"bone": "Bip01_Spine1",
+		// 			"offsetx": -1.5,
+		// 			"offsety": 0,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.15176,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 6,
+		// 	"filename": "gfx/items/wearable/ballistic_vest_wearmodel.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 12,
+		// 			"bone": "Bip01_Spine1",
+		// 			"offsetx": -1.5,
+		// 			"offsety": 0,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 0,
+		// 			"offsetyaw": 179.9,
+		// 			"offsetroll": -90,
+		// 			"scale": 1.15176,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 7,
+		// 	"filename": "gfx/items/ballistic_helmet.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -3.3,
+		// 			"offsety": 1,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 1.02,
+		// 			"variety": 2
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 7,
+		// 	"filename": "gfx/items/wearable/ballistic_helmet_visor.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 1,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -3.3,
+		// 			"offsety": 1,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 1.02,
+		// 			"variety": 2
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 7,
+		// 	"filename": "gfx/items/goc_helmet.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 2,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -3.3,
+		// 			"offsety": 1,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 1.02,
+		// 			"variety": 2
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 8,
+		// 	"filename": "gfx/items/wearable/nvg_wearmodel.b3d",
+		// 	"texture": "gfx/items/night_vision_goggles_green.png",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -4.7,
+		// 			"offsety": -3.8,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 83,
+		// 			"offsetyaw": 80,
+		// 			"offsetroll": 8.75,
+		// 			"scale": 1.07,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 9,
+		// 	"filename": "gfx/items/wearable/nvg_wearmodel.b3d",
+		// 	"texture": "gfx/items/night_vision_goggles_red.png",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -4.7,
+		// 			"offsety": -3.8,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 83,
+		// 			"offsetyaw": 80,
+		// 			"offsetroll": 8.75,
+		// 			"scale": 1.07,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	"id": 10,
+		// 	"filename": "gfx/items/wearable/nvg_wearmodel.b3d",
+		// 	"texture": "gfx/items/night_vision_goggles_blue.png",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -4.7,
+		// 			"offsety": -3.8,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 83,
+		// 			"offsetyaw": 80,
+		// 			"offsetroll": 8.75,
+		// 			"scale": 1.07,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение ШИФРАТОРА (Временно отключено)
+		// 	"id": 11,
+		// 	"filename": "gfx/items/wearable/scramble_gear_wearmodel.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -4.7,
+		// 			"offsety": -3.8,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 83,
+		// 			"offsetyaw": 80,
+		// 			"offsetroll": 8.75,
+		// 			"scale": 1.07,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение ШИФРАТОРА (Временно отключено)
+		// 	"id": 12,
+		// 	"filename": "gfx/items/wearable/scramble_gear_wearmodel.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -4.7,
+		// 			"offsety": -3.8,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 83,
+		// 			"offsetyaw": 80,
+		// 			"offsetroll": 8.75,
+		// 			"scale": 1.07,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение 427 (Временно отключено)
+		// 	"id": 13,
+		// 	"filename": "gfx/items/wearable/427_wearmodel.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Spine4",
+		// 			"offsetx": -2,
+		// 			"offsety": 7,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 200,
+		// 			"offsetyaw": 90,
+		// 			"offsetroll": 180,
+		// 			"scale": 1.3,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение 268 (Временно отключено)
+		// 	"id": 14,
+		// 	"filename": "gfx/items/scp_268.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -5.3,
+		// 			"offsety": -1.6,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 5.3,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение 268 (Временно отключено)
+		// 	"id": 15,
+		// 	"filename": "gfx/items/scp_268.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -5.3,
+		// 			"offsety": -1.6,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 5.3,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение 268 (Временно отключено)
+		// 	"id": 19,
+		// 	"filename": "gfx/items/scp_268.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -5.3,
+		// 			"offsety": -1.6,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 5.3,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение 714 (Временно отключено)
+		// 	"id": 17,
+		// 	"filename": "gfx/items/scp_714.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_R_Finger21",
+		// 			"offsetx": 0,
+		// 			"offsety": 0,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 10,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение SCP-714 (Временно отключено)
+		// 	"id": 18,
+		// 	"filename": "gfx/items/scp_714.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_R_Finger21",
+		// 			"offsetx": 0,
+		// 			"offsety": 0,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 10,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		{
+			"id": 19,
+			"filename": "gfx/items/m4a1_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 20,
+			"filename": "gfx/items/glock_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 21,
+			"filename": "gfx/items/m60_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 22,
+			"filename": "gfx/items/sr556_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 23,
+			"filename": "gfx/items/mp5_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 24,
+			"filename": "gfx/items/fiveseven_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 25,
+			"filename": "gfx/items/kriss_vector_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 26,
+			"filename": "gfx/items/handcuffs_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": -1,
+					"offsetz": 0,
+					"offsetpitch": 0,
+					"offsetyaw": 0,
+					"offsetroll": 90,
+					"scale": 0.383,
+					"variety": 0
+				}
+			]
+		},
+		// { Отображение наручников (Временно отключено)
+		// 	"id": 27,
+		// 	"filename": "gfx/items/handcuffs_wm.b3d",
+		// 	"texture": "",
+		// 	"rigged": 1,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_R_Wrist",
+		// 			"offsetx": 1,
+		// 			"offsety": 0,
+		// 			"offsetz": -3.8,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 0.383,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение SCP-035 (Временно отключено)
+		// 	"id": 28,
+		// 	"filename": "gfx/npcs/scp_035_smile.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": 1.1,
+		// 			"offsety": -7.2,
+		// 			"offsetz": 0.015,
+		// 			"offsetpitch": -72,
+		// 			"offsetyaw": -98,
+		// 			"offsetroll": -9.6,
+		// 			"scale": 1.1,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		// { Отображение шлеиа (Временно отключено)
+		// 	"id": 29,
+		// 	"filename": "gfx/items/heavy_helmet.b3d",
+		// 	"texture": "",
+		// 	"rigged": 0,
+		// 	"variety": 0,
+		// 	"sounds": [
+		// 	],
+		// 	"presets": [
+		// 		{
+		// 			"id": 19,
+		// 			"bone": "Bip01_Head1",
+		// 			"offsetx": -3.3,
+		// 			"offsety": 1,
+		// 			"offsetz": 0,
+		// 			"offsetpitch": 90,
+		// 			"offsetyaw": 0,
+		// 			"offsetroll": 90,
+		// 			"scale": 1.02,
+		// 			"variety": 0
+		// 		}
+		// 	]
+		// },
+		{
+			"id": 30,
+			"filename": "gfx/items/p90_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 31,
+			"filename": "gfx/items/mp7_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 32,
+			"filename": "gfx/items/m134_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 0,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 38,
+			"filename": "gfx/items/remington_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 39,
+			"filename": "gfx/items/rpg_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 0,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 40,
+			"filename": "gfx/items/g36_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
+		},
+		{
+			"id": 41,
+			"filename": "gfx/items/ak12_wm.b3d",
+			"texture": "",
+			"rigged": 1,
+			"variety": 0,
+			"sounds": [
+			],
+			"presets": [
+				{
+					"id": 19,
+					"bone": "Anim_Attachment_RH",
+					"offsetx": 0,
+					"offsety": 3,
+					"offsetz": 4.5,
+					"offsetpitch": 0,
+					"offsetyaw": 180,
+					"offsetroll": -70,
+					"scale": 4.6,
+					"variety": 0
+				}
+			]
 		}
 	]
 }
