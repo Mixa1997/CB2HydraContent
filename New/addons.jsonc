@@ -5,7 +5,7 @@
 		{
 			"url": "https://raw.githubusercontent.com/Mixa1997/CB2HydraContent/main/New/HydraSCP.cbpak",
 			"export": "HydraSCP.cbpak",
-			"hash": "262074d4a12a73e629b23d830a4bcfb3"
+			"hash": "9e8e19f31c814d4e907f44395064b401"
 		}
 	],
 	"materials": "addons/HydraSCP/Data/materials.ini",
@@ -45,14 +45,14 @@
 				{	//Walk Anim
 					"id": 2,
 					"start": 295,
-					"end": 330,
+					"end": 332,
 					"speed": 0.55,
 					"stepaccum": 40
 				},
 				{	//Run Anim
 					"id": 3,
 					"start": 295,
-					"end": 330,
+					"end": 332,
 					"speed": 0.6,
 					"stepaccum": 30
 				},
@@ -89,7 +89,7 @@
 			[
 				{
 					"id": 0,
-					"start": 331,
+					"start": 333,
 					"end": 377,
 					"speed": 0.4
 				}
